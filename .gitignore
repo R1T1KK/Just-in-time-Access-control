@@ -79,3 +79,6 @@ coverage/
 
 # Docker
 .dockerignore
+
+# Local Maven installation
+apache-maven-*/
