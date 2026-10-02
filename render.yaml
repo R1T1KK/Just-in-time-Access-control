@@ -31,7 +31,6 @@ services:
           name: zt-vis-frontend
           type: web
           property: host
-          envVarKey: RENDER_EXTERNAL_URL
 
   # ── React Frontend ───────────────────────────────────────────────
   - type: web
@@ -46,7 +45,6 @@ services:
           name: zt-vis-backend
           type: web
           property: host
-          envVarKey: RENDER_EXTERNAL_URL
     routes:
       - type: rewrite
         source: /*
