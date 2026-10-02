@@ -4,10 +4,10 @@ FROM maven:3.9.8-eclipse-temurin-21 AS build
 WORKDIR /app
 
 # Cache dependency layer separately
-COPY pom.xml .
-RUN mvn dependency:go-offline -B
+COPY backend/pom.xml .
+RUN mvn dependency:go-offline -B || true
 
-COPY src ./src
+COPY backend/src ./src
 RUN mvn package -DskipTests -B
 
 # ─── Stage 2: Runtime ────────────────────────────────────────
