@@ -9,7 +9,7 @@ services:
   - type: web
     name: zt-vis-backend
     runtime: docker
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: ./backend/Dockerfile
     plan: free
     envVars:
       - key: DATABASE_URL
