@@ -13,15 +13,15 @@ services:
     dockerContext: ./backend
     plan: free
     envVars:
-      - key: DATABASE_URL
+      - key: SPRING_DATASOURCE_URL
         fromDatabase:
           name: ztvis-db
           property: connectionString
-      - key: DB_USERNAME
+      - key: SPRING_DATASOURCE_USERNAME
         fromDatabase:
           name: ztvis-db
           property: user
-      - key: DB_PASSWORD
+      - key: SPRING_DATASOURCE_PASSWORD
         fromDatabase:
           name: ztvis-db
           property: password
