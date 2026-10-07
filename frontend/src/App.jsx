@@ -13,18 +13,18 @@ const IconAlert = () => <svg xmlns="http://www.w3.org/2000/svg" width="18" heigh
 const IconClock = () => <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>;
 
 // ── Extra Icons ──
-const IconMenu = () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>;
-const IconLogOut = () => <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>;
-const IconGrid = () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>;
-const IconSettings = () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>;
+const IconMenu = () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" /></svg>;
+const IconLogOut = () => <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" /><polyline points="16 17 21 12 16 7" /><line x1="21" y1="12" x2="9" y2="12" /></svg>;
+const IconGrid = () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /></svg>;
+const IconSettings = () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" /></svg>;
 
 // Gradient SVG def – injected once, referenced by logo shield
 const SvgDefs = () => (
   <svg width="0" height="0" style={{ position: 'absolute' }}>
     <defs>
       <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#60a5fa"/>
-        <stop offset="100%" stopColor="#a78bfa"/>
+        <stop offset="0%" stopColor="#60a5fa" />
+        <stop offset="100%" stopColor="#a78bfa" />
       </linearGradient>
     </defs>
   </svg>
@@ -32,8 +32,8 @@ const SvgDefs = () => (
 
 function App() {
   const [activeTab, setActiveTab] = useState('preregister');
-  const [toast, setToast]         = useState(null);
-  const [isReady, setIsReady]     = useState(false);
+  const [toast, setToast] = useState(null);
+  const [isReady, setIsReady] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
@@ -76,8 +76,8 @@ function App() {
           <div className="logo-brand">
             <div className="logo-icon-wrap">
               <svg className="logo-shield" viewBox="0 0 24 24">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="url(#shieldGrad)" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M9 12l2 2 4-4" stroke="url(#shieldGrad)" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="url(#shieldGrad)" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M9 12l2 2 4-4" stroke="url(#shieldGrad)" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
             <div className="logo-text-group">
@@ -95,10 +95,10 @@ function App() {
         <nav className="sidebar-nav">
           <div className="sidebar-section-label">Visitor Management</div>
           {navItem('preregister', <IconUser />, 'Pre-Register Visitor')}
-          {navItem('admin',       <IconGrid />, 'JIT Admin Dashboard')}
+          {navItem('admin', <IconGrid />, 'JIT Admin Dashboard')}
 
           <div className="sidebar-section-label">Access Control</div>
-          {navItem('scan',   <IconScan />,     'Checkpoint Simulator')}
+          {navItem('scan', <IconScan />, 'Checkpoint Simulator')}
           {navItem('events', <IconActivity />, 'Access Logs')}
 
 
@@ -125,9 +125,9 @@ function App() {
           <div className="topbar-left">
             <h1>{
               activeTab === 'preregister' ? 'Pre-Register Visitor' :
-              activeTab === 'admin'       ? 'JIT Admin Dashboard'  :
-              activeTab === 'scan'        ? 'Checkpoint Simulator' :
-                                           'Real-time Access Logs'
+                activeTab === 'admin' ? 'JIT Admin Dashboard' :
+                  activeTab === 'scan' ? 'Checkpoint Simulator' :
+                    'Real-time Access Logs'
             }</h1>
             <p>Identity-first Just-In-Time access management</p>
           </div>
@@ -139,11 +139,11 @@ function App() {
         </header>
 
         <div className="page-content page-enter">
-          {!isReady && <div style={{padding: '20px', color: 'var(--text-muted)'}}>Connecting to Secure Network...</div>}
+          {!isReady && <div style={{ padding: '20px', color: 'var(--text-muted)' }}>Connecting to Secure Network...</div>}
           {isReady && activeTab === 'preregister' && <PreRegister showToast={showToast} />}
-          {isReady && activeTab === 'admin'       && <AdminDashboard showToast={showToast} />}
-          {isReady && activeTab === 'scan'        && <ScanSimulator showToast={showToast} />}
-          {isReady && activeTab === 'events'      && <AccessLogs />}
+          {isReady && activeTab === 'admin' && <AdminDashboard showToast={showToast} />}
+          {isReady && activeTab === 'scan' && <ScanSimulator showToast={showToast} />}
+          {isReady && activeTab === 'events' && <AccessLogs />}
 
         </div>
       </main>
@@ -264,8 +264,8 @@ function AdminDashboard({ showToast }) {
     }).catch(err => console.error("Failed to fetch visitors", err));
   };
 
-  useEffect(() => { 
-    fetchVisitors(); 
+  useEffect(() => {
+    fetchVisitors();
     // Auto-refresh every 5 seconds to update Active/Expired statuses in real-time
     const interval = setInterval(fetchVisitors, 5000);
     return () => clearInterval(interval);
@@ -304,7 +304,7 @@ function AdminDashboard({ showToast }) {
             <button className={`btn btn-sm ${filter === 'REJECTED' ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setFilter('REJECTED')}>Rejected</button>
           </div>
         </div>
-        
+
         {filter === 'PENDING' && (
           <div style={{ padding: '0 20px 20px', borderBottom: '1px solid var(--border)' }}>
             <label className="form-label">Issue passes for Zone: </label>
